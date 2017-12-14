@@ -54,8 +54,6 @@ for n in range(0, N):
     sum_of_rewards[ad] = sum_of_rewards[ad] + reward
     total_reward = total_reward + reward
         
-    
-    
 #Visualizing the histogram
 plt.hist(ads_selected)
 plt.title('Histogram of Ads selected')
